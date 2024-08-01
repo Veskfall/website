@@ -1,3 +1,3 @@
 # website
 
-[Veskfall Website](https://github.com/website/)
+[Veskfall Website](https://veskfall.github.io/website/)
