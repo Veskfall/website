@@ -9,7 +9,7 @@ link {
   display: flex;
   justify-content: left;
   align-items: center;
-  font-size: 30px;
+  font-size: 27px;
 }
 #get-started {
   background-color: #597DCE;
@@ -20,7 +20,7 @@ link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 27px;
 }
 #home {
   background-color: #140C1C;
@@ -31,7 +31,7 @@ link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 27px;
 }
 #footer {
   background-color: #30346D;
@@ -41,14 +41,14 @@ link {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  font-size: 30px;
+  font-size: 27px;
 }
-#figure { width: 64px; height: 64px; }
-#image { width: auto; height: 256px; }
+#figure { width: 48px; height: 48px; }
+#image { width: auto; height: 240px; }
 #center {
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 27px;
 }
 #drawer { display: none; }
 #drawer-home { display: none; }

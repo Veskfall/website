@@ -1,6 +1,6 @@
 function openDrawer() {
-  document.getElementById("drawer").style.display = block;
+  document.getElementById("drawer").style.display = "block";
 }
 function closeDrawer() {
-  document.getElementById("drawer").style.display = none;
+  document.getElementById("drawer").style.display = "none";
 }
