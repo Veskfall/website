@@ -88,7 +88,7 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 .main-content a { color: #526ffc; border-bottom: .1px solid #526ffc; display: inline; padding: 0 0 .02em 0; }
 .main-content a:hover, .main-content p a:active { color: #f2f2f2 !important; background: #316eea; border: 0; }
 .main-content li { margin-left: 25px; }
-.main-content hr { border: 0; background: #444; height: 1px; margin: 10px 0px; }
+.main-content hr { border: 0; background: #444; height: 2px; margin: 10px 0px; }
 .gameview { background: #000; vertical-align: middle; outline: 2px ridge red; margin: 2px; }
 .gameview:focus { outline: 2px ridge lime; }
 .gamebutton { margin: 5px; width: 80px; vertical-align: middle; }
