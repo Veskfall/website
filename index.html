@@ -1,132 +1,71 @@
-
-<!-- navigator bar -->
-<div id="nav"><img id="figure" src="more.svg" onclick="openDrawer();"><img id="figure" src="icon.svg"><p>VOID</p></div>
-<!-- get started -->
-<div id="get-started">
-  <h3>VOID</h3>
-  <p>An not-open-source fantasy console</p>
-  <div onclick="window.location.href = 'itch.io';"><p>Get Started</p></div>
-</div>
-<!-- home -->
-<div id="home">
-  <img id="image" src="apple.svg">
-  <h3>Create retro-looking games</h3>
-  </p>For a fantasy system with a low resolution of 224x128 and limited to a colors palette of 16 colors.</p>
-  <img id="image" src="disk.svg">
-  <h3>Share your games with others</h3>
-  <p>By sending them an image looks like a disk, but also magically contains your game.</p>
-  <img id="image" src="platforms.svg">
-  <h3>Available on multiple platforms</h3>
-  <p>Developed on Windows and supports Linux. Experimental support for Android and macOS is also available.<p>
-  <img id="image" src="lua-logo.svg">
-  <h3>Code in Lua</h3>
-  <p>An easy to learn programming language.</p>
-  <img id="image" src="itch-io.svg">
-  <h3>Not-open-source</h3>
-  <p>You can look into the code that makes it work and even hack it to do new things!</p>
-</div>
-<!-- footer -->
-<div id="footer">
-  <h3>Docs</h3>
-  <p>Introduction</p>
-  <h3>Community</h3>
-  <!-- not sesson comunity --><br>
-  <h3>More</h3>
-  <p>Privacy Policy</p>
-  <p>Blog</p>
-  <p>Itch.io</p>
-  <div id="center"><p>Copyright © <span id="year"></span>-2024 Gustavo Gimenes</p></div>
-</div>
-<!-- drawer -->
-<div id="drawer">
-  <div><img id="icon"><p>VOID</p><img onclick="closeDrawer();"></div>
-  <div id="drawer-home">
-    <p>Docs</p>
-    <p>Blog</p>
-    <p>Itch.io</p>
-  </div>
-  <div id="drawer-docs">
-    <h3 id="back-home">← Back to main menu</h3>
-    <p>Introduction</p>
-    <p>Installation</p>
-    <p>Terminal</p>
-    <p>Editors</p>
-    <p>Graphics</p>
-    <p>Graphics (Advanced)</p>
-    <p>Input</p>
-    <p>Miscellaneous</p>
-    <p>Appendix</p>
-    <p>Drafts</p>
-    <p>Experimental</p>
-  </div>
-</div>
-<!-- style -->
-<style>
-  #nav {
-    background-color: #140C1C;
-    margin: -8px;
-    padding: 8px;
-    color: #DEEED6;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 30px;
-  }
-  #get-started {
-    background-color: #597DCE;
-    margin: -8px;
-    padding: 8px;
-    color: #DEEED6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-  }
-  #home {
-    background-color: #140C1C;
-    margin: -8px;
-    padding: 32px;
-    color: #DEEED6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-  }
-  #footer {
-    background-color: #30346D;
-    margin: -8px;
-    padding: 8px;
-    color: #DEEED6;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    font-size: 30px;
-  }
-  #figure { width: 64px; height: 64px; }
-  #image { width: auto; height: 256px; }
-  #center {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-  }
-  #drawer {
-    display: none;
-  }
-  #drawer-home {
-    display: none;
-  }
-  #drawer-docs {
-    display: none;
-  }
-</style>
-<!-- script -->
-<script>
-  function openDrawer() {
-    document.elementById("drawer").style.display = block;
-  }
-  function closeDrawer() {
-    document.elementById("drawer").style.display = none;
-  }
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Veskfall Games</title>
+    <link rel="stylesheet" href="style.css" type='text/css'>
+  </head>
+  <body>
+    <!-- navigator bar -->
+    <div id="nav"><img id="figure" src="more.svg" onclick="openDrawer();"><img id="figure" src="icon.svg"><p>VOID</p></div>
+    <!-- get started -->
+    <div id="get-started">
+      <h3>VOID</h3>
+      <p>An not-open-source fantasy console</p>
+      <div onclick="window.location.href = 'itch.io';"><p>Get Started</p></div>
+    </div>
+    <!-- home -->
+    <div id="home">
+      <img id="image" src="apple.svg">
+      <h3>Create retro-looking games</h3>
+      </p>For a fantasy system with a low resolution of 224x128 and limited to a colors palette of 16 colors.</p>
+      <img id="image" src="disk.svg">
+      <h3>Share your games with others</h3>
+      <p>By sending them an image looks like a disk, but also magically contains your game.</p>
+      <img id="image" src="platforms.svg">
+      <h3>Available on multiple platforms</h3>
+      <p>Developed on Windows and supports Linux. Experimental support for Android and macOS is also available.<p>
+      <img id="image" src="lua-logo.svg">
+      <h3>Code in Lua</h3>
+      <p>An easy to learn programming language.</p>
+      <img id="image" src="itch-io.svg">
+      <h3>Not-open-source</h3>
+      <p>You can look into the code that makes it work and even hack it to do new things!</p>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <h3>Docs</h3>
+      <p>Introduction</p>
+      <h3>Community</h3>
+      <!-- not sesson comunity --><br>
+      <h3>More</h3>
+      <p>Privacy Policy</p>
+      <p>Blog</p>
+      <p>Itch.io</p>
+      <div id="center"><p>Copyright © <span id="year"></span>-2024 Gustavo Gimenes</p></div>
+    </div>
+    <!-- drawer -->
+    <div id="drawer">
+      <div><img id="icon"><p>VOID</p><img onclick="closeDrawer();"></div>
+      <div id="drawer-home">
+        <p>Docs</p>
+        <p>Blog</p>
+        <p>Itch.io</p>
+      </div>
+      <div id="drawer-docs">
+        <h3 id="back-home">← Back to main menu</h3>
+        <p>Introduction</p>
+        <p>Installation</p>
+        <p>Terminal</p>
+        <p>Editors</p>
+        <p>Graphics</p>
+        <p>Graphics (Advanced)</p>
+        <p>Input</p>
+        <p>Miscellaneous</p>
+        <p>Appendix</p>
+        <p>Drafts</p>
+        <p>Experimental</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
